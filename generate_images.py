@@ -115,7 +115,7 @@ def generate_and_save(base_seed, n_images, out_dir, network_pkl):
 if __name__ == "__main__":
     generate_and_save(
         base_seed=0,
-        n_images=5000,
+        n_images=20_000,
         out_dir="imgs_and_vecs",
         network_pkl="./ffhq.pkl"
     )
